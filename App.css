@@ -1,0 +1,79 @@
+.container {
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.proxy-card {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.proxy-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.proxy-card h2 {
+    color: #1a202c;
+    margin-bottom: 0;
+}
+
+.proxy-card p {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.proxy-card .text-gray-500 {
+    color: #718096;
+}
+
+.proxy-card .bg-blue-500 {
+    background-color: #4299e1;
+}
+
+.proxy-card .bg-blue-500:hover {
+    background-color: #3182ce;
+}
+
+.proxy-card .bg-gray-500 {
+    background-color: #a0aec0;
+}
+
+.proxy-card .bg-gray-500:hover {
+    background-color: #718096;
+}
+
+.proxy-card .text-white {
+    color: #fff;
+}
+
+.proxy-card .rounded-full {
+    border-radius: 9999px;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #1a202c;
+    color: #a0aec0;
+}
+
+#footer a {
+    color: #a0aec0;
+}
+
+@media (min-width: 640px) and (max-width: 1023px) {
+    .proxy-card .text-xl {
+        font-size: 1.5rem;
+    }
+
+    .proxy-card .text-center {
+        font-size: 1.2rem;
+    }
+
+    .proxy-card .py-2 {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+}
